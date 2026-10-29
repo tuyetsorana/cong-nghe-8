@@ -1,0 +1,82 @@
+{
+  "bai_01": [
+    {
+      "question": "Câu 1: Khổ giấy A4 có kích thước bao nhiêu mm? Được chia từ khổ giấy nào?",
+      "method": "Áp dụng tiêu chuẩn TCVN 7285:2003 về kích thước khổ giấy chính.",
+      "step_1": "Khổ giấy chính lớn nhất là A0 với kích thước $1189 \\times 841\\text{ mm}$.",
+      "step_2": "Chia đôi A0 theo chiều dài được 2 tờ A1 ($841 \\times 594\\text{ mm}$); tiếp tục chia đôi được A2 ($594 \\times 420\\text{ mm}$); chia đôi A2 được A3 ($420 \\times 297\\text{ mm}$); chia đôi A3 được A4.",
+      "conclusion": "Khổ giấy A4 có kích thước chuẩn là $297 \\times 210\\text{ mm}$. Một tờ A0 chia được đúng 16 tờ A4.",
+      "key_takeaway": "Lề trái của bản vẽ luôn là 20 mm để đóng gáy tập, ba cạnh còn lại cách 10 mm."
+    },
+    {
+      "question": "Câu 2: Phân biệt ứng dụng của nét liền đậm, nét liền mảnh, nét đứt mảnh và nét gạch dài - chấm - mảnh?",
+      "method": "Tra cứu Bảng 1.3 theo tiêu chuẩn TCVN 8-24:2002.",
+      "step_1": "Nét liền đậm: Vẽ đường bao thấy, cạnh thấy của vật thể.",
+      "step_2": "Nét liền mảnh: Kẻ đường gióng kích thước, đường ghi kích thước, gạch mặt cắt.",
+      "step_3": "Nét đứt mảnh: Vẽ đường bao khuất, cạnh khuất nằm phía sau hoặc bên trong vật thể.",
+      "conclusion": "Nét gạch dài - chấm - mảnh: Dùng để vẽ đường tâm, đường trục đối xứng của các hình tròn, mặt cầu, khối trụ.",
+      "key_takeaway": "Độ dày nét mảnh thường bằng 1/2 độ dày nét đậm ($s_{mảnh} \\approx 0.5 s_{đậm}$)."
+    }
+  ],
+  "bai_02": [
+    {
+      "question": "Câu 1: Nêu vị trí tương đối giữa hình chiếu bằng, hình chiếu cạnh so với hình chiếu đứng trên bản vẽ kĩ thuật?",
+      "method": "Dựa trên quy ước mở hộp mặt phẳng chiếu (trải phẳng $P_2$ xuống dưới $90^\\circ$ và $P_3$ sang phải $90^\\circ$).",
+      "step_1": "Hình chiếu đứng được giữ nguyên ở vị trí trung tâm trên mặt phẳng $P_1$.",
+      "step_2": "Mặt phẳng hình chiếu bằng $P_2$ xoay xuống dưới, do đó hình chiếu bằng luôn nằm NGAY DƯỚI hình chiếu đứng.",
+      "conclusion": "Mặt phẳng hình chiếu cạnh $P_3$ xoay sang phải, do đó hình chiếu cạnh luôn nằm NGAY BÊN PHẢI hình chiếu đứng.",
+      "key_takeaway": "Không được tự ý đổi vị trí hình chiếu bằng sang cạnh hoặc hình chiếu cạnh xuống dưới vì sẽ vi phạm hoàn toàn tiêu chuẩn TCVN."
+    },
+    {
+      "question": "Câu 2: Nêu đặc điểm các hình chiếu của hình hộp chữ nhật và hình lăng trụ tam giác đều?",
+      "method": "Chiếu các mặt bao của khối đa diện lên 3 mặt phẳng vuông góc.",
+      "step_1": "Hình hộp chữ nhật: Cả 3 hình chiếu (đứng, bằng, cạnh) đều là các hình chữ nhật diễn tả các kích thước: Dài, Rộng, Cao.",
+      "step_2": "Hình lăng trụ tam giác đều: Hình chiếu đứng và hình chiếu cạnh là hình chữ nhật, hình chiếu bằng là hình tam giác đều.",
+      "conclusion": "Hình dạng của hình chiếu phản ánh đúng hình chiếu của các mặt giới hạn khối đa diện theo các hướng nhìn tương ứng.",
+      "key_takeaway": "Khối đa diện cần tối thiểu 2 đến 3 hình chiếu để xác định đầy đủ hình dáng và kích thước trong không gian."
+    }
+  ],
+  "bai_03": [
+    {
+      "question": "Câu 1: Nêu 5 bước trong trình tự đọc bản vẽ chi tiết?",
+      "method": "Áp dụng quy trình đọc chuẩn từ khung tên đến tổng hợp.",
+      "step_1": "Bước 1 - Khung tên: Đọc tên chi tiết, vật liệu, tỉ lệ bản vẽ.",
+      "step_2": "Bước 2 - Hình biểu diễn: Xác định tên các hình chiếu, vị trí hình cắt.",
+      "step_3": "Bước 3 - Kích thước: Đọc kích thước chung và kích thước các phần tử (lỗ, rãnh, vát mép).",
+      "step_4": "Bước 4 - Yêu cầu kĩ thuật: Đọc các chỉ dẫn gia công cơ khí, mạ kẽm, nhiệt luyện.",
+      "conclusion": "Bước 5 - Tổng hợp: Tưởng tượng hình dáng 3D thực tế và công dụng của chi tiết.",
+      "key_takeaway": "Luôn đọc Khung tên đầu tiên để biết mình đang đọc chi tiết gì và làm bằng chất liệu gì."
+    }
+  ],
+  "bai_04": [
+    {
+      "question": "Câu 1: Bản vẽ lắp khác bản vẽ chi tiết ở những điểm cơ bản nào?",
+      "method": "So sánh về đối tượng, nội dung và công dụng giữa 2 loại bản vẽ.",
+      "step_1": "Đối tượng: Bản vẽ chi tiết vẽ 1 chi tiết đơn lẻ; bản vẽ lắp thể hiện cả một cụm máy gồm nhiều chi tiết lắp ghép lại với nhau.",
+      "step_2": "Nội dung: Bản vẽ lắp CÓ Bảng kê chi tiết, nhưng KHÔNG CÓ Yêu cầu kĩ thuật riêng lẻ. Ngược lại bản vẽ chi tiết CÓ Yêu cầu kĩ thuật nhưng KHÔNG CÓ Bảng kê.",
+      "conclusion": "Bản vẽ lắp dùng để phục vụ quá trình lắp ráp, kiểm tra và vận hành sản phẩm.",
+      "key_takeaway": "Kích thước trên bản vẽ lắp chủ yếu là kích thước bao (D x R x C) và kích thước lắp ghép giữa các bề mặt tiếp xúc."
+    }
+  ],
+  "bai_05": [
+    {
+      "question": "Câu 1: Tại sao Mặt bằng lại là hình biểu diễn quan trọng nhất trên bản vẽ nhà?",
+      "method": "Phân tích định nghĩa và lượng thông tin mà Mặt bằng cung cấp.",
+      "step_1": "Mặt bằng là hình cắt bằng được tạo bởi mặt phẳng nằm ngang cắt qua tầm cửa sổ (cách nền 1m - 1.5m).",
+      "step_2": "Mặt bằng cung cấp cái nhìn tổng thể về số lượng phòng, vị trí các phòng, diện tích sử dụng, vị trí các bức tường, cửa đi, cửa sổ và giao thông cầu thang trong nhà.",
+      "conclusion": "Mặt bằng thể hiện cách tổ chức không gian sống và là căn cứ chính để bố trí nội thất cũng như xây dựng kết cấu ngôi nhà.",
+      "key_takeaway": "Cửa đi đơn 1 cánh trên mặt bằng được vẽ bằng cung tròn $90^\\circ$ để chỉ hướng đóng/mở cánh cửa."
+    }
+  ],
+  "on_tap_chuong_01": [
+    {
+      "question": "Tổng kết: Trình bày quy tắc 3 hình chiếu vuông góc và công thức liên hệ kích thước?",
+      "method": "Tổng hợp mối quan hệ giữa 3 hình chiếu theo phương chiếu góc thứ nhất.",
+      "step_1": "Hình chiếu đứng thể hiện: Chiều cao và Chiều dài.",
+      "step_2": "Hình chiếu bằng thể hiện: Chiều dài và Chiều rộng (nằm dưới hình chiếu đứng).",
+      "step_3": "Hình chiếu cạnh thể hiện: Chiều cao và Chiều rộng (nằm bên phải hình chiếu đứng).",
+      "conclusion": "Hình chiếu đứng và bằng cùng chiều dài; Hình chiếu đứng và cạnh cùng chiều cao; Hình chiếu bằng và cạnh cùng chiều rộng.",
+      "key_takeaway": "Đây là nguyên lý cơ bản nhất của hình học họa hình và đồ họa kỹ thuật."
+    }
+  ]
+}

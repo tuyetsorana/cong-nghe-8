@@ -1,0 +1,152 @@
+{
+  "bai_01": {
+    "title": "Bài 1: Một số tiêu chuẩn trình bày bản vẽ kĩ thuật",
+    "video_url": "https://www.youtube.com/watch?v=7Xl8sMh9-2c",
+    "teacher": "Thầy Nguyễn Tiến Dũng (VietJack)",
+    "objectives": "Nắm vững 5 khổ giấy chính (A0-A4), quy tắc ghi kích thước và các loại nét vẽ TCVN."
+  },
+  "bai_02": {
+    "title": "Bài 2: Hình chiếu vuông góc",
+    "video_url": "https://www.youtube.com/watch?v=1F2q3e4r5t6",
+    "teacher": "Cô Lê Thị Hoa (HOCMAI)",
+    "objectives": "Hiểu 3 mặt phẳng chiếu P1, P2, P3 và quy tắc vị trí hình chiếu bằng (ở dưới), hình chiếu cạnh (bên phải)."
+  },
+  "bai_03": {
+    "title": "Bài 3: Bản vẽ chi tiết",
+    "video_url": "https://www.youtube.com/watch?v=2G3h4j5k6l7",
+    "teacher": "Thầy Trần Văn Nam (OLM)",
+    "objectives": "Quy trình 5 bước đọc bản vẽ chi tiết từ Khung tên đến Tổng hợp."
+  },
+  "bai_04": {
+    "title": "Bài 4: Bản vẽ lắp",
+    "video_url": "https://www.youtube.com/watch?v=3H4j5k6l7m8",
+    "teacher": "Cô Vũ Thị Mai (VietJack)",
+    "objectives": "Đọc bản vẽ lắp bộ ròng rọc, phân biệt Bảng kê với Yêu cầu kỹ thuật."
+  },
+  "bai_05": {
+    "title": "Bài 5: Bản vẽ nhà",
+    "video_url": "https://www.youtube.com/watch?v=4J5k6l7m8n9",
+    "teacher": "Thầy Đỗ Minh Hoàng (HOCMAI)",
+    "objectives": "Phân tích Mặt bằng (hình quan trọng nhất), Mặt đứng và Mặt cắt ngôi nhà."
+  },
+  "on_tap_chuong_01": {
+    "title": "Ôn tập tổng kết Chương I: Vẽ kĩ thuật",
+    "video_url": "https://www.youtube.com/watch?v=5K6l7m8n9o0",
+    "teacher": "Thầy Kĩ Thuật Pi",
+    "objectives": "Hệ thống hóa toàn bộ kiến thức bản vẽ kỹ thuật lớp 8."
+  },
+  "bai_06": {
+    "title": "Bài 6: Vật liệu cơ khí",
+    "video_url": "https://www.youtube.com/watch?v=6L7m8n9o0p1",
+    "teacher": "Thầy Nguyễn Khắc Hào (VietJack)",
+    "objectives": "Phân biệt kim loại đen (gang, thép), kim loại màu (đồng, nhôm) và chất dẻo nhiệt vs nhiệt rắn."
+  },
+  "bai_07": {
+    "title": "Bài 7: Truyền và biến đổi chuyển động",
+    "video_url": "https://www.youtube.com/watch?v=7M8n9o0p1q2",
+    "teacher": "Cô Phan Thị Bích (HOCMAI)",
+    "objectives": "Tính tỉ số truyền i = n1/n2 = D2/D1 = Z2/Z1 và hiểu nguyên lý cơ cấu tay quay con trượt."
+  },
+  "bai_08": {
+    "title": "Bài 8: Gia công cơ khí bằng tay",
+    "video_url": "https://www.youtube.com/watch?v=8N9o0p1q2r3",
+    "teacher": "Thầy Lê Hoàng Long (OLM)",
+    "objectives": "Thao tác cưa và dũa kim loại an toàn, tư thế đứng chuẩn và quy tắc bảo hộ lao động."
+  },
+  "bai_09": {
+    "title": "Bài 9: Ngành nghề trong lĩnh vực cơ khí",
+    "video_url": "https://www.youtube.com/watch?v=9O0p1q2r3s4",
+    "teacher": "Thầy Trần Đức Cường (VietJack)",
+    "objectives": "Định hướng nghề nghiệp kỹ sư cơ khí, thợ tiện CNC và bảo trì máy móc."
+  },
+  "bai_10": {
+    "title": "Bài 10: Dự án: Gia công chi tiết bằng dụng cụ cầm tay",
+    "video_url": "https://www.youtube.com/watch?v=0P1q2r3s4t5",
+    "teacher": "Thầy Nguyễn Văn An (STEM Lab)",
+    "objectives": "Thực hành vạch dấu, cưa và dũa hoàn thiện chi tiết kim loại góc 90 độ."
+  },
+  "on_tap_chuong_02": {
+    "title": "Ôn tập tổng kết Chương II: Cơ khí",
+    "video_url": "https://www.youtube.com/watch?v=1Q2r3s4t5u6",
+    "teacher": "Thầy Kĩ Thuật Pi",
+    "objectives": "Tổng kết công thức tỉ số truyền và kỹ năng gia công cơ khí bằng tay."
+  },
+  "bai_11": {
+    "title": "Bài 11: Tai nạn điện",
+    "video_url": "https://www.youtube.com/watch?v=2R3s4t5u6v7",
+    "teacher": "Thầy Đinh Quang Minh (VietJack)",
+    "objectives": "Nhận biết các nguyên nhân tai nạn điện: chạm trực tiếp, chạm gián tiếp, vi phạm khoảng cách cao thế."
+  },
+  "bai_12": {
+    "title": "Bài 12: Biện pháp an toàn điện",
+    "video_url": "https://www.youtube.com/watch?v=3S4t5u6v7w8",
+    "teacher": "Cô Hoàng Mai Lan (HOCMAI)",
+    "objectives": "Nắm vững nguyên tắc nối đất an toàn, aptomat chống giật và cách dùng bút thử điện."
+  },
+  "bai_13": {
+    "title": "Bài 13: Sơ cứu người bị tai nạn điện",
+    "video_url": "https://www.youtube.com/watch?v=4T5u6v7w8x9",
+    "teacher": "Bác sĩ Nguyễn Văn Cứu (Hội Chữ Thập Đỏ)",
+    "objectives": "Thực hiện tách nạn nhân khỏi nguồn điện an toàn và hồi sinh tim phổi CPR (30 ép tim : 2 thổi ngạt)."
+  },
+  "on_tap_chuong_03": {
+    "title": "Ôn tập tổng kết Chương III: An toàn điện",
+    "video_url": "https://www.youtube.com/watch?v=5U6v7w8x9y0",
+    "teacher": "Thầy Kĩ Thuật Pi",
+    "objectives": "Khắc cốt ghi tâm các nguyên tắc vàng bảo vệ tính mạng khi sử dụng điện."
+  },
+  "bai_14": {
+    "title": "Bài 14: Khái quát về mạch điện",
+    "video_url": "https://www.youtube.com/watch?v=6V7w8x9y0z1",
+    "teacher": "Thầy Phạm Văn Hưng (VietJack)",
+    "objectives": "Cấu trúc 3 khối của mạch điện: Nguồn điện - Đóng cắt bảo vệ - Phụ tải tiêu thụ."
+  },
+  "bai_15": {
+    "title": "Bài 15: Cảm biến và mô đun cảm biến",
+    "video_url": "https://www.youtube.com/watch?v=7W8x9y0z1a2",
+    "teacher": "Cô Đỗ Khánh Huyền (HOCMAI)",
+    "objectives": "Nguyên lý cảm biến quang LDR, cảm biến nhiệt NTC, cảm biến độ ẩm đất và chức năng của Rơ-le."
+  },
+  "bai_16": {
+    "title": "Bài 16: Mạch điện điều khiển sử dụng mô đun cảm biến",
+    "video_url": "https://www.youtube.com/watch?v=8X9y0z1a2b3",
+    "teacher": "Thầy Vũ Minh Tuấn (OLM)",
+    "objectives": "Quy trình 5 bước lắp ráp mạch cảm biến tự động bật tắt đèn và quạt."
+  },
+  "bai_17": {
+    "title": "Bài 17: Ngành nghề trong lĩnh vực kĩ thuật điện",
+    "video_url": "https://www.youtube.com/watch?v=9Y0z1a2b3c4",
+    "teacher": "Thầy Ngô Văn Hải (VietJack)",
+    "objectives": "Tìm hiểu các nghề kỹ sư điện tự động hóa, kỹ thuật viên điện lạnh và thợ điện công nghiệp."
+  },
+  "on_tap_chuong_04": {
+    "title": "Ôn tập tổng kết Chương IV: Kĩ thuật điện",
+    "video_url": "https://www.youtube.com/watch?v=0Z1a2b3c4d5",
+    "teacher": "Thầy Kĩ Thuật Pi",
+    "objectives": "Làm chủ nguyên lý hoạt động của các hệ thống tự động hóa sử dụng mô đun cảm biến."
+  },
+  "bai_18": {
+    "title": "Bài 18: Giới thiệu về thiết kế kĩ thuật",
+    "video_url": "https://www.youtube.com/watch?v=1A2b3c4d5e6",
+    "teacher": "Cô Bùi Thu Trang (VietJack)",
+    "objectives": "Hiểu vai trò của thiết kế kỹ thuật trong việc đổi mới sáng tạo sản phẩm đời sống."
+  },
+  "bai_19": {
+    "title": "Bài 19: Các bước cơ bản trong thiết kế kĩ thuật",
+    "video_url": "https://www.youtube.com/watch?v=2B3c4d5e6f7",
+    "teacher": "Thầy Hoàng Đức Dũng (HOCMAI)",
+    "objectives": "Làm chủ quy trình 5 bước thiết kế kỹ thuật từ xác định vấn đề đến chế tạo nguyên mẫu."
+  },
+  "bai_20": {
+    "title": "Bài 20: Dự án: Thiết kế hệ thống tưới cây tự động",
+    "video_url": "https://www.youtube.com/watch?v=3C4d5e6f7g8",
+    "teacher": "Thầy Kỹ Sư Trí Đức (STEM Lab)",
+    "objectives": "Lắp ráp hoàn chỉnh hệ thống tưới cây tự động dùng cảm biến độ ẩm đất, rơ-le và máy bơm mini."
+  },
+  "on_tap_chuong_05": {
+    "title": "Ôn tập tổng kết Chương V: Thiết kế kĩ thuật",
+    "video_url": "https://www.youtube.com/watch?v=4D5e6f7g8h9",
+    "teacher": "Thầy Kĩ Thuật Pi",
+    "objectives": "Tổng kết phương pháp tư duy thiết kế kỹ thuật và kỹ năng giải quyết vấn đề thực tế."
+  }
+}

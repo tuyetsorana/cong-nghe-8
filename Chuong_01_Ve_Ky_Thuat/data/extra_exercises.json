@@ -1,0 +1,272 @@
+{
+  "bai_01": [
+    {
+      "id": "b1_01",
+      "level": "Dễ",
+      "question": "🌸 Khổ giấy A4 mà các bạn học sinh thường dùng để vẽ tranh và in bài có kích thước chuẩn TCVN là bao nhiêu mm?",
+      "options": [
+        "A. 297 x 210 mm",
+        "B. 420 x 297 mm",
+        "C. 594 x 420 mm",
+        "D. 1189 x 841 mm"
+      ],
+      "correct": "A",
+      "explanation": "Khổ A4 chuẩn chỉnh là 297 x 210 mm (bằng một nửa khổ A3 đấy nhé)!"
+    },
+    {
+      "id": "b1_02",
+      "level": "Dễ",
+      "question": "✏️ Khi vẽ một chiếc hộp quà xinh xắn, nét vẽ nào được dùng để vẽ các cạnh nhìn thấy ngay trước mắt?",
+      "options": [
+        "A. Nét liền đậm",
+        "B. Nét đứt mảnh",
+        "C. Nét liền mảnh",
+        "D. Nét lượn sóng"
+      ],
+      "correct": "A",
+      "explanation": "Cái gì mắt nhìn thấy rõ ràng thì cứ tự tin vẽ bằng nét liền đậm nha!"
+    },
+    {
+      "id": "b1_03",
+      "level": "Vừa",
+      "question": "📏 Bạn Bo vẽ một chiếc bút chì dài thực tế 150 mm lên giấy với tỉ lệ thu nhỏ 1:2. Hỏi con số kích thước Bo phải ghi trên bản vẽ là số mấy?",
+      "options": [
+        "A. 150",
+        "B. 75",
+        "C. 300",
+        "D. 150 mm"
+      ],
+      "correct": "A",
+      "explanation": "Quy tắc vàng: Con số kích thước LUÔN là kích thước thật (150) và tuyệt đối không ghi kèm chữ 'mm' đâu nhé!"
+    },
+    {
+      "id": "b1_04",
+      "level": "Vừa",
+      "question": "📒 Tại sao mép lề bên trái của khung bản vẽ kĩ thuật lại được chừa rộng tới 20 mm, trong khi các lề khác chỉ cần 10 mm?",
+      "options": [
+        "A. Để chừa chỗ đục lỗ đóng thành tập tài liệu",
+        "B. Để trang trí sticker cho đẹp mắt",
+        "C. Để người vẽ ký tên vào đó",
+        "D. Để không bị mực lem ra ngoài"
+      ],
+      "correct": "A",
+      "explanation": "Đúng rồi! 20 mm lề trái là để bấm ghim hoặc đục lỗ đóng thành tập hồ sơ kỹ thuật ngăn nắp đấy!"
+    },
+    {
+      "id": "b1_05",
+      "level": "Thử thách",
+      "question": "✂️ Bác thợ in có một tờ giấy A0 khổng lồ ($1189 \\times 841\\text{ mm}$). Bác có thể cắt được tối đa bao nhiêu tờ giấy A4 mà không bị thừa miếng nào?",
+      "options": [
+        "A. 16 tờ",
+        "B. 8 tờ",
+        "C. 32 tờ",
+        "D. 4 tờ"
+      ],
+      "correct": "A",
+      "explanation": "Mỗi lần gập đôi số tờ nhân 2: A0 -> 2 A1 -> 4 A2 -> 8 A3 -> 16 A4! Siêu chính xác!"
+    },
+    {
+      "id": "b1_06",
+      "level": "Thử thách",
+      "question": "🎯 Nét gạch dài - chấm - mảnh có nhiệm vụ đặc biệt gì trên bản vẽ chi tiết hình tròn?",
+      "options": [
+        "A. Vẽ đường tâm và trục đối xứng của hình tròn",
+        "B. Vẽ đường viền ngoài của hình tròn",
+        "C. Vẽ phần bóng đổ của hình tròn",
+        "D. Dùng để gạch bỏ phần vẽ sai"
+      ],
+      "correct": "A",
+      "explanation": "Nét gạch dài - chấm - mảnh chính là 'chiếc rốn' đánh dấu tâm và trục đối xứng của hình tròn!"
+    }
+  ],
+  "bai_02": [
+    {
+      "id": "b2_01",
+      "level": "Dễ",
+      "question": "🌟 Trong quy ước mở hộp chiếu chuẩn TCVN, Hình chiếu bằng luôn ngoan ngoãn nằm ở vị trí nào so với Hình chiếu đứng?",
+      "options": [
+        "A. Nằm ngay ở phía dưới hình chiếu đứng",
+        "B. Nằm ngay ở phía trên hình chiếu đứng",
+        "C. Nằm ở bên phải hình chiếu đứng",
+        "D. Nằm ở bên trái hình chiếu đứng"
+      ],
+      "correct": "A",
+      "explanation": "Chiếu đứng ở giữa làm đại ca, Chiếu bằng ở dưới, Chiếu cạnh ở bên phải nha!"
+    },
+    {
+      "id": "b2_02",
+      "level": "Dễ",
+      "question": "🔦 Khi bạn rọi đèn pin thẳng từ trên đầu của một quả bóng đá xuống sàn nhà phẳng, bóng của quả bóng in trên sàn là hình gì?",
+      "options": [
+        "A. Hình tròn có đường tâm vuông góc",
+        "B. Hình bầu dục",
+        "C. Hình tam giác",
+        "D. Hình vuông"
+      ],
+      "correct": "A",
+      "explanation": "Quả bóng hình cầu nhìn từ hướng nào cũng cho hình chiếu là hình tròn có tâm cắt nhau!"
+    },
+    {
+      "id": "b2_03",
+      "level": "Vừa",
+      "question": "🥤 Bạn cầm một lon nước ngọt đặt đứng trên bàn. Khi nhìn thẳng từ trước vào (chiếu đứng), bạn sẽ thấy hình chiếu của lon nước là hình gì?",
+      "options": [
+        "A. Hình chữ nhật",
+        "B. Hình tròn",
+        "C. Hình elip",
+        "D. Hình thang"
+      ],
+      "correct": "A",
+      "explanation": "Khối trụ khi chiếu theo phương ngang thì hình bao vuông góc thu được là hình chữ nhật!"
+    },
+    {
+      "id": "b2_04",
+      "level": "Vừa",
+      "question": "📐 Một khối chóp nón sinh nhật đặt đáy trên mặt phẳng nằm ngang. Hai hình chiếu đứng và chiếu cạnh của chiếc nón sinh nhật là hình gì?",
+      "options": [
+        "A. Hai hình tam giác cân",
+        "B. Hai hình chữ nhật",
+        "C. Hai hình tròn",
+        "D. Một hình tam giác và một hình tròn"
+      ],
+      "correct": "A",
+      "explanation": "Chiếc nón sinh nhật có hình nón tròn xoay, nhìn từ trước hay nhìn từ cạnh đều thấy hình tam giác cân!"
+    },
+    {
+      "id": "b2_05",
+      "level": "Thử thách",
+      "question": "🚀 Để thể hiện đầy đủ hình dạng và kích thước của một chi tiết máy hình hộp chữ nhật có đục lỗ tròn ở giữa, kỹ sư cần dùng ít nhất bao nhiêu hình chiếu vuông góc?",
+      "options": [
+        "A. 3 hình chiếu (Đứng, Bằng, Cạnh)",
+        "B. Chỉ cần 1 hình chiếu",
+        "C. Cần 6 hình chiếu",
+        "D. Không cần hình chiếu nào"
+      ],
+      "correct": "A",
+      "explanation": "Cần 3 hình chiếu: Đứng (chiều cao, dài), Bằng (chiều dài, rộng) và Cạnh (chiều rộng, cao) để xác định vị trí và độ sâu của lỗ tròn!"
+    }
+  ],
+  "bai_03": [
+    {
+      "id": "b3_01",
+      "level": "Dễ",
+      "question": "🪪 Bản vẽ chi tiết gồm có mấy nội dung chính?",
+      "options": [
+        "A. 4 nội dung (Hình biểu diễn, Kích thước, Yêu cầu kĩ thuật, Khung tên)",
+        "B. 3 nội dung (Khung tên, Bảng kê, Mặt bằng)",
+        "C. 5 nội dung (Khung tên, Bảng kê, Kích thước, Mặt đứng, Mặt cắt)",
+        "D. Chỉ có 2 nội dung"
+      ],
+      "correct": "A",
+      "explanation": "Gồm 4 nội dung chuẩn chỉnh: Hình biểu diễn, Kích thước, Yêu cầu kĩ thuật và Khung tên!"
+    },
+    {
+      "id": "b3_02",
+      "level": "Vừa",
+      "question": "🔍 Khi cầm một bản vẽ chi tiết trên tay, bước thông minh đầu tiên mà em nên đọc là gì?",
+      "options": [
+        "A. Đọc Khung tên ở góc dưới bên phải",
+        "B. Đọc ngay các con số kích thước phức tạp",
+        "C. Đọc yêu cầu xử lý nhiệt luyện",
+        "D. Đo thử xem tờ giấy to hay nhỏ"
+      ],
+      "correct": "A",
+      "explanation": "Luôn đọc Khung tên trước tiên để biết ngay chi tiết tên là gì, làm bằng vật liệu gì và tỉ lệ bao nhiêu nhé!"
+    },
+    {
+      "id": "b3_03",
+      "level": "Thử thách",
+      "question": "⚙️ Trong bản vẽ chi tiết ống lót, phần 'Yêu cầu kĩ thuật' ghi: '1. Làm tù cạnh; 2. Mạ kẽm'. Nếu thợ cơ khí quên mạ kẽm thì điều gì sẽ xảy ra?",
+      "options": [
+        "A. Ống lót bằng thép sẽ nhanh chóng bị oxy hóa và rỉ sét khi gặp không khí ẩm",
+        "B. Kích thước ống lót bị co lại một nửa",
+        "C. Ống lót biến thành màu vàng",
+        "D. Không ảnh hưởng gì cả"
+      ],
+      "correct": "A",
+      "explanation": "Mạ kẽm là lớp áo giáp chống rỉ sét cho kim loại. Quên mạ kẽm là chi tiết hỏng ngay sau vài tuần sử dụng!"
+    }
+  ],
+  "bai_04": [
+    {
+      "id": "b4_01",
+      "level": "Dễ",
+      "question": "📋 Điểm khác biệt 'thần thánh' nhất của Bản vẽ lắp so với Bản vẽ chi tiết là gì?",
+      "options": [
+        "A. Bản vẽ lắp CÓ Bảng kê chi tiết, còn bản vẽ chi tiết thì KHÔNG",
+        "B. Bản vẽ lắp không có kích thước",
+        "C. Bản vẽ lắp chỉ được vẽ trên giấy màu hồng",
+        "D. Bản vẽ lắp không có hình chiếu"
+      ],
+      "correct": "A",
+      "explanation": "Chính xác! Bản vẽ lắp vẽ cụm nhiều chi tiết nên bắt buộc phải có Bảng kê để kiểm đếm số lượng từng món!"
+    },
+    {
+      "id": "b4_02",
+      "level": "Vừa",
+      "question": "📍 Bảng kê trên bản vẽ lắp thường được vẽ ở vị trí nào để tiện theo dõi nhất?",
+      "options": [
+        "A. Nằm ngay phía trên của Khung tên",
+        "B. Nằm ở góc trên cùng bên trái",
+        "C. Nằm ở mặt sau của tờ giấy",
+        "D. Nằm ở giữa bản vẽ"
+      ],
+      "correct": "A",
+      "explanation": "Bảng kê nằm liền kề ngay phía trên Khung tên ở góc dưới bên phải tờ bản vẽ!"
+    },
+    {
+      "id": "b4_03",
+      "level": "Thử thách",
+      "question": "🔩 Trong bộ ghép đinh tán gồm 2 tấm thép và 2 chiếc đinh tán, kích thước lắp ghép quan trọng nhất cần phải ăn khớp với nhau là kích thước nào?",
+      "options": [
+        "A. Đường kính lỗ trên tấm thép và đường kính thân đinh tán",
+        "B. Chiều dài của cả tấm thép",
+        "C. Độ bóng của đầu đinh tán",
+        "D. Chiều cao của chiếc bàn làm việc"
+      ],
+      "correct": "A",
+      "explanation": "Đúng vậy! Lỗ trên tấm thép phải vừa khít với thân đinh tán thì mới ghép chặt và tán đinh chắc chắn được!"
+    }
+  ],
+  "bai_05": [
+    {
+      "id": "b5_01",
+      "level": "Dễ",
+      "question": "🏡 Trong các hình biểu diễn của ngôi nhà, hình nào được mệnh danh là 'Trái tim' quan trọng nhất của bản vẽ?",
+      "options": [
+        "A. Mặt bằng",
+        "B. Mặt đứng",
+        "C. Mặt cắt",
+        "D. Mặt nghiêng"
+      ],
+      "correct": "A",
+      "explanation": "Mặt bằng là số 1 vì nó diễn tả toàn bộ cách bố trí các phòng, cửa đi và giao thông trong nhà!"
+    },
+    {
+      "id": "b5_02",
+      "level": "Vừa",
+      "question": "🚪 Trên bản vẽ mặt bằng nhà, kí hiệu một cung tròn $90^\\circ$ cong mở ra phía trước biểu diễn bộ phận nào?",
+      "options": [
+        "A. Cửa đi đơn 1 cánh và chiều mở của cánh cửa",
+        "B. Cửa sổ lùa 2 cánh",
+        "C. Cầu thang xoắn ốc",
+        "D. Quạt trần đang quay"
+      ],
+      "correct": "A",
+      "explanation": "Cung tròn 90 độ thể hiện vệt quét đóng/mở của cánh cửa đi đơn 1 cánh!"
+    },
+    {
+      "id": "b5_03",
+      "level": "Thử thách",
+      "question": "📐 Nếu bạn muốn biết chiều cao từ sàn lên đến trần nhà tầng 1 là bao nhiêu mét, bạn cần tra cứu hình biểu diễn nào trên bản vẽ nhà?",
+      "options": [
+        "A. Mặt cắt thẳng đứng",
+        "B. Mặt bằng tầng 1",
+        "C. Mặt bằng mái",
+        "D. Khung tên bản vẽ"
+      ],
+      "correct": "A",
+      "explanation": "Mặt cắt thẳng đứng cắt xuyên qua các tầng sẽ cho ta biết chính xác chiều cao tầng, độ dày dầm sàn và chiều cao trần nhà!"
+    }
+  ]
+}

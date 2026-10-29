@@ -1,0 +1,38 @@
+{
+  "bai_01": {
+    "title": "Bài 1: Một số tiêu chuẩn trình bày bản vẽ kĩ thuật",
+    "video_url": "https://www.youtube.com/watch?v=kYv_C2n0N78",
+    "teacher": "Thầy Cô Bộ môn Công nghệ - VietJack",
+    "objectives": "Nắm vững 4 tiêu chuẩn vàng: Khổ giấy A0-A4, Tỉ lệ, 4 loại nét vẽ cơ bản và quy tắc ghi kích thước mm."
+  },
+  "bai_02": {
+    "title": "Bài 2: Hình chiếu vuông góc",
+    "video_url": "https://www.youtube.com/watch?v=FjC3L1pCg1M",
+    "teacher": "Thầy Cô Bộ môn Kỹ thuật Công nghiệp",
+    "objectives": "Hiểu bản chất 3 mặt phẳng hình chiếu P1, P2, P3 và quy tắc trải phẳng hộp chiếu để đặt đúng vị trí 3 hình chiếu."
+  },
+  "bai_03": {
+    "title": "Bài 3: Bản vẽ chi tiết",
+    "video_url": "https://www.youtube.com/watch?v=9_NlS1K4W88",
+    "teacher": "VietJack THCS",
+    "objectives": "Luyện 5 bước đọc bản vẽ chi tiết ống lót, côn có ren và nhận diện các yêu cầu kĩ thuật gia công."
+  },
+  "bai_04": {
+    "title": "Bài 4: Bản vẽ lắp",
+    "video_url": "https://www.youtube.com/watch?v=9l31_yC4K2U",
+    "teacher": "HOCMAI THCS",
+    "objectives": "Nắm 6 bước đọc bản vẽ lắp, phân tích Bảng kê chi tiết và hình dung trình tự tháo lắp bộ ghép cơ khí."
+  },
+  "bai_05": {
+    "title": "Bài 5: Bản vẽ nhà",
+    "video_url": "https://www.youtube.com/watch?v=gT8v_c8K1pM",
+    "teacher": "Giáo dục THCS Trực tuyến",
+    "objectives": "Phân tích 3 hình biểu diễn của ngôi nhà: Mặt bằng (hình cắt bằng), Mặt đứng, Mặt cắt và nhận diện kí hiệu cửa, cầu thang."
+  },
+  "on_tap_chuong_01": {
+    "title": "Ôn tập tổng kết Chương I: Vẽ kĩ thuật",
+    "video_url": "https://www.youtube.com/watch?v=rT9sL2kP1pA",
+    "teacher": "Thầy Cô Nhóm Công nghệ THCS",
+    "objectives": "Hệ thống hóa toàn bộ kiến thức 5 bài học và luyện giải đề ôn tập tổng hợp 10 câu hỏi cốt lõi."
+  }
+}

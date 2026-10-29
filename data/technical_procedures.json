@@ -1,0 +1,88 @@
+{
+  "dang_1_doc_ban_ve": {
+    "title": "Dạng 1: Đọc Bản Vẽ Kỹ Thuật (5 Bước Chuẩn SGK)",
+    "description": "Quy trình khoa học giúp người thợ kỹ thuật đọc và chế tạo chính xác chi tiết máy hoặc cụm chi tiết lắp ráp.",
+    "steps": [
+      {
+        "step": "Bước 1: Đọc Khung Tên",
+        "action": "Tìm hiểu tên chi tiết máy, vật liệu chế tạo, tỉ lệ bản vẽ và nơi sản xuất.",
+        "example": "Chi tiết: Ống lót; Vật liệu: Thép; Tỉ lệ: 1:1."
+      },
+      {
+        "step": "Bước 2: Phân Tích Hình Biểu Diễn",
+        "action": "Xác định tên các hình chiếu (Đứng, Bằng, Cạnh) và vị trí mặt phẳng cắt (nếu có hình cắt).",
+        "example": "Hình chiếu đứng có cắt một nửa để nhìn thấy rõ lỗ bậc bên trong ống lót."
+      },
+      {
+        "step": "Bước 3: Đọc Kích Thước",
+        "action": "Đọc kích thước chung (Dài x Rộng x Cao) và kích thước từng phần tử (lỗ khoan, đường kính, bán kính).",
+        "example": "Đường kính ngoài Ø 36 mm, đường kính lỗ bậc trong Ø 20 mm và Ø 28 mm, chiều dài tổng thể 40 mm."
+      },
+      {
+        "step": "Bước 4: Đọc Yêu Cầu Kĩ Thuật",
+        "action": "Đọc chỉ dẫn gia công cơ khí (làm tù cạnh sắc, mài bóng) và xử lý nhiệt luyện / mạ kẽm.",
+        "example": "Làm tù cạnh 0.5 mm, mạ kẽm chống rỉ sét bề mặt."
+      },
+      {
+        "step": "Bước 5: Tổng Hợp & Hình Dung 3D",
+        "action": "Tưởng tượng hoàn chỉnh hình dáng 3D thực tế của chi tiết trong không gian và công dụng trong bộ phận máy.",
+        "example": "Ống lót hình trụ rỗng hai tầng đường kính, dùng để đỡ trục quay giảm ma sát."
+      }
+    ],
+    "key_takeaway": "Luôn đọc Khung tên trước tiên để không bị nhầm lẫn vật liệu chế tạo và kích thước tỉ lệ."
+  },
+  "dang_2_thao_tac_an_toan": {
+    "title": "Dạng 2: Quy Trình Thao Tác & Lắp Ráp An Toàn",
+    "description": "Quy trình chuẩn mực từ khâu chuẩn bị, tư thế thao tác đến tiêu chuẩn đánh giá và an toàn tuyệt đối.",
+    "steps": [
+      {
+        "step": "Bước 1: Chuẩn Bị & Kiểm Tra Dụng Cụ",
+        "action": "Chọn dụng cụ phù hợp (cưa, dũa, kìm, tua vít, đồng hồ đo). Kiểm tra cán bọc chắc chắn, không bị rạn nứt.",
+        "example": "Cán dũa tra chặt vào chuôi, lưỡi cưa sắt được kéo căng vừa phải và lắp răng hướng về phía trước."
+      },
+      {
+        "step": "Bước 2: Tư Thế & Thao Tác Chuẩn Mực",
+        "action": "Đứng đúng góc chuẩn, giữ nhịp thở và lực tác động đều đặn, đúng hành trình làm việc.",
+        "example": "Khi cưa: Đẩy cưa tới ấn lực đều, kéo lùi không ấn; Khi dũa: Tay phải đẩy cán, tay trái ấn đầu dũa giữ mặt phẳng thăng bằng."
+      },
+      {
+        "step": "Bước 3: Đánh Giá & Kiểm Tra Sản Phẩm",
+        "action": "Dùng thước đo góc 90° hoặc thước cặp kiểm tra độ chính xác kích thước và độ phẳng bề mặt.",
+        "example": "Áp ê-ke vào hai cạnh vừa dũa, nhìn khe hở ánh sáng để đánh giá độ phẳng tuyệt đối."
+      },
+      {
+        "step": "Bước 4: Vệ Sinh & Tuân Thủ An Toàn",
+        "action": "Dùng chổi quét dọn phoi kim loại, lau dầu bảo dưỡng dụng cụ và cất gọn gàng vào tủ đồ nghề.",
+        "example": "Tuyệt đối không dùng tay trần gạt mạt sắt hoặc dùng miệng thổi phoi kim loại!"
+      }
+    ],
+    "key_takeaway": "An toàn là nguyên tắc số 1 của mọi xưởng cơ khí và phòng thực hành STEM."
+  },
+  "dang_3_tinh_toan_ky_thuat": {
+    "title": "Dạng 3: Bài Toán Tính Toán Kỹ Thuật (Tỉ Số Truyền & Thông Số Mạch)",
+    "description": "Phương pháp giải toán kỹ thuật ứng dụng thực tế với công thức chuẩn KaTeX và ví dụ chi tiết.",
+    "steps": [
+      {
+        "step": "Bước 1: Xác Định Dữ Kiện & Đại Lượng",
+        "action": "Tóm tắt đề bài, ghi rõ số răng (Z1, Z2), đường kính (D1, D2), tốc độ quay (n1, n2) hoặc thông số cảm biến.",
+        "example": "Đĩa xích Z1 = 44 răng, líp Z2 = 20 răng, tốc độ đạp n1 = 60 vòng/phút."
+      },
+      {
+        "step": "Bước 2: Lựa Chọn Công Thức Kỹ Thuật Chuẩn",
+        "action": "Sử dụng công thức liên hệ tỉ số truyền i hoặc công suất mạch.",
+        "example": "i = n1 / n2 = Z2 / Z1 = D2 / D1"
+      },
+      {
+        "step": "Bước 3: Biến Đổi & Tính Toán Chuẩn Xác",
+        "action": "Rút đại lượng cần tìm và thay số tính toán cẩn thận.",
+        "example": "n2 = n1 * (Z1 / Z2) = 60 * (44 / 20) = 132 vòng/phút."
+      },
+      {
+        "step": "Bước 4: Kết Luận Kỹ Thuật & Ứng Dụng Đời Sống",
+        "action": "Nêu ý nghĩa của kết quả đối với hoạt động của máy móc.",
+        "example": "Bánh xe sau quay nhanh hơn 2.2 lần so với bàn đạp, giúp xe đi nhanh và tiết kiệm sức lực cho người đạp."
+      }
+    ],
+    "key_takeaway": "Bánh có số răng hoặc đường kính NHỎ HƠN thì luôn quay NHANH HƠN (tỉ lệ nghịch)."
+  }
+}

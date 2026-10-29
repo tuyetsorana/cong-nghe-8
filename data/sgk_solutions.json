@@ -1,0 +1,252 @@
+{
+  "bai_01": [
+    {
+      "question": "Câu 1: Khổ giấy A4 có kích thước bao nhiêu mm? Được chia từ khổ giấy nào?",
+      "method": "Áp dụng tiêu chuẩn TCVN 7285:2003 về khổ giấy kỹ thuật.",
+      "step_1": "Khổ giấy chính lớn nhất là A0 có kích thước chuẩn 1189 x 841 mm.",
+      "step_2": "Chia đôi khổ A0 theo chiều dài được A1 (841 x 594 mm); tiếp tục chia đôi được A2 (594 x 420 mm); chia đôi A2 được A3 (420 x 297 mm); chia đôi A3 được A4.",
+      "conclusion": "Khổ giấy A4 có kích thước chuẩn là 297 x 210 mm. Một tờ A0 chia được đúng 16 tờ A4.",
+      "key_takeaway": "Lề trái của bản vẽ luôn chừa 20 mm để đóng gáy tập, 3 lề còn lại chừa 10 mm."
+    }
+  ],
+  "bai_07": [
+    {
+      "question": "Bài tập: Đĩa xích xe đạp có Z1 = 44 răng, líp có Z2 = 20 răng. Tính tỉ số truyền i và số vòng quay của bánh xe sau khi bàn đạp quay 50 vòng/phút?",
+      "method": "Áp dụng công thức tỉ số truyền bộ truyền động xích i = n1/n2 = Z2/Z1.",
+      "step_1": "Tỉ số truyền i = Z2 / Z1 = 20 / 44 = 5 / 11 ≈ 0.455.",
+      "step_2": "Số vòng quay bánh xe sau: n2 = n1 * (Z1 / Z2) = 50 * (44 / 20) = 110 vòng/phút.",
+      "conclusion": "Bánh xe sau quay 110 vòng/phút (nhanh gấp 2.2 lần tốc độ đạp bàn đạp).",
+      "key_takeaway": "Bánh có số răng ít hơn luôn quay nhanh hơn!"
+    }
+  ],
+  "bai_13": [
+    {
+      "question": "Bài tập tình huống: Khi thấy một người bạn đang bị điện giật dính vào quạt điện, em cần xử lý thế nào?",
+      "method": "Áp dụng 3 nguyên tắc vàng sơ cứu người bị điện giật của SGK Công nghệ 8.",
+      "step_1": "Hô to gọi người lớn trợ giúp, lập tức chạy đến ngắt cầu dao/aptomat hoặc rút phích cắm quạt điện.",
+      "step_2": "Nếu chưa ngắt được điện, đứng trên ghế nhựa hoặc ván gỗ khô, dùng cán chổi gỗ khô gạt dây điện ra khỏi người bạn. Tuyệt đối không chạm tay không vào bạn!",
+      "conclusion": "Kiểm tra hô hấp của bạn, nếu bất tỉnh nới lỏng quần áo và gọi cấp cứu 115, tiến hành hô hấp nhân tạo nếu ngừng thở.",
+      "key_takeaway": "An toàn cho người cứu hộ là điều kiện tiên quyết!"
+    }
+  ],
+  "bai_16": [
+    {
+      "question": "Bài tập: Trình bày quy trình 5 bước lắp ráp mạch điện điều khiển dùng mô đun cảm biến ánh sáng?",
+      "method": "Theo Bảng 16.1 SGK Công nghệ 8.",
+      "step_1": "Bước 1 & 2: Tìm hiểu mô đun cảm biến (cổng vào VCC, GND; tiếp điểm rơ-le COM, NO) và vẽ sơ đồ mạch điện.",
+      "step_2": "Bước 3 & 4: Chuẩn bị nguồn pin, bóng đèn, dây nối và tiến hành đấu nối theo sơ đồ.",
+      "conclusion": "Bước 5: Cấp nguồn, che tay vào quang trở để kiểm tra bóng đèn tự bật sáng và tinh chỉnh chiết áp.",
+      "key_takeaway": "Luôn kiểm tra đúng cực tính nguồn trước khi đóng điện!"
+    }
+  ],
+  "bai_20": [
+    {
+      "question": "Bài tập dự án: Nêu nguyên lý vận hành của hệ thống tưới cây tự động dùng cảm biến độ ẩm đất?",
+      "method": "Phân tích mối quan hệ giữa độ ẩm đất - tín hiệu cảm biến - trạng thái rơ-le - máy bơm.",
+      "step_1": "Khi đất khô, điện trở giữa hai que đo tăng lên -> Mạch so sánh kích hoạt rơ-le đóng tiếp điểm COM - NO cấp điện cho máy bơm nước.",
+      "step_2": "Khi đất đã ẩm, điện trở giảm -> Mạch so sánh ngắt tín hiệu điều khiển rơ-le -> Rơ-le nhả tiếp điểm làm máy bơm dừng hoạt động.",
+      "conclusion": "Hệ thống tự động duy trì độ ẩm lý tưởng cho chậu cây mà không cần con người can thiệp.",
+      "key_takeaway": "Đảm bảo hộp mạch điện cách ly hoàn toàn với nước tưới."
+    }
+  ],
+  "bai_02": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 02?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_03": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 03?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_04": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 04?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_05": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 05?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "on_tap_chuong_01": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: ON TAP CHUONG 01?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_06": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 06?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_08": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 08?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_09": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 09?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_10": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 10?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "on_tap_chuong_02": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: ON TAP CHUONG 02?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_11": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 11?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_12": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 12?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "on_tap_chuong_03": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: ON TAP CHUONG 03?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_14": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 14?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_15": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 15?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_17": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 17?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "on_tap_chuong_04": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: ON TAP CHUONG 04?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_18": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 18?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "bai_19": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: BAI 19?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ],
+  "on_tap_chuong_05": [
+    {
+      "question": "Câu hỏi ôn tập & củng cố: ON TAP CHUONG 05?",
+      "method": "Vận dụng kiến thức trọng tâm SGK Công nghệ 8 Kết nối tri thức.",
+      "step_1": "Xác định rõ các khái niệm, quy tắc kỹ thuật hoặc công thức tính toán liên quan.",
+      "step_2": "Trình bày các bước thực hiện tuần tự theo quy chuẩn TCVN.",
+      "conclusion": "Áp dụng chính xác vào thực tế đảm bảo an toàn, tiết kiệm và hiệu quả cao.",
+      "key_takeaway": "Học đi đôi với hành, chú trọng kỹ năng thực hành và an toàn lao động."
+    }
+  ]
+}

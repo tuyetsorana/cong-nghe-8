@@ -1,0 +1,87 @@
+{
+  "bai_01": {
+    "title": "Bài 1: Một số tiêu chuẩn trình bày bản vẽ kĩ thuật",
+    "pareto_20": [
+      "Khổ giấy A4 ($297 \\times 210\\text{ mm}$): Tạo ra từ A0 bằng cách chia đôi 4 lần (1 A0 = 16 A4). Lề trái luôn là 20 mm để đóng gáy, 3 lề còn lại 10 mm.",
+      "Quy tắc vàng con số kích thước: Con số ghi trên bản vẽ LUÔN là kích thước THỰC TẾ của vật thể, bất kể bạn vẽ thu nhỏ 1:10 hay phóng to 10:1, và mặc định đơn vị là mm (không ghi chữ 'mm').",
+      "Bộ 3 nét vẽ bất biến: Nét liền đậm (cạnh nhìn thấy), Nét đứt mảnh (cạnh bị che khuất bên trong), Nét gạch dài - chấm - mảnh (đường tâm & trục đối xứng)."
+    ],
+    "feynman_kid": {
+      "analogy_title": "Ẩn dụ: Chiếc bánh quy khổng lồ A0 và Ngôn ngữ bí mật của các kỹ sư 🍪",
+      "story": "Hãy tưởng tượng em có một chiếc bánh quy khổng lồ tên là A0. Khi em bẻ đôi chiếc bánh, em được 2 chiếc A1. Bẻ đôi A1, em được 2 chiếc A2. Cứ thế bẻ đôi 4 lần, em có đúng 16 chiếc bánh nhỏ A4 vừa vặn trong cặp sách đi học! Còn các nét vẽ giống như mật mã: Cái gì mắt em 'nhìn thấy rõ' thì vẽ thật đậm nét; cái gì 'núp ở phía sau' thì vẽ nét đứt như dấu chân mèo đi rón rén; còn đường ở chính giữa tâm thì chấm một cái như đánh dấu rốn của vật thể vậy!",
+      "mantra": "A0 xẻ 4 ra A4 • Thấy thì vẽ ĐẬM, Khuất thì vẽ ĐỨT • Số đo là THẬT, khỏi viết chữ mm!"
+    },
+    "real_life_story": "Bạn Nam muốn làm một chiếc hộp đựng bút bằng gỗ. Nam vẽ lên giấy vở kích thước 15 cm nhưng lại ghi là 15 (vì tưởng là mm). Bác thợ mộc nhận bản vẽ làm ra chiếc hộp chỉ dài 15 mm (bé bằng hạt đậu!). Bài học rút ra: Tiêu chuẩn kỹ thuật là để mọi người hiểu nhau 100%!"
+  },
+  "bai_02": {
+    "title": "Bài 2: Hình chiếu vuông góc",
+    "pareto_20": [
+      "Bộ 3 mặt phẳng chiếu: $P_1$ Đứng (nhìn từ TRƯỚC), $P_2$ Bằng (nhìn từ TRÊN), $P_3$ Cạnh (nhìn từ TRÁI).",
+      "Quy tắc mở hộp bất biến: Chiếu Bằng nằm DƯỚI chiếu Đứng; Chiếu Cạnh nằm BÊN PHẢI chiếu Đứng.",
+      "Khối tròn xoay (Trụ, Nón, Cầu): Hình chiếu nào là hình tròn BẮT BUỘC phải vẽ 2 đường tâm vuông góc cắt nhau bằng nét gạch dài - chấm - mảnh."
+    ],
+    "feynman_kid": {
+      "analogy_title": "Ẩn dụ: Chiếc đèn pin thần kỳ và Chiếc hộp thủy tinh 3 mặt 🔦📦",
+      "story": "Hãy tưởng tượng em nhốt một món đồ chơi vào một chiếc hộp kính trong suốt. Em lấy đèn pin rọi từ TRƯỚC mặt &rarr; cái bóng in lên kính là 'Hình chiếu đứng'. Em trèo lên ghế rọi thẳng từ TRÊN đầu xuống &rarr; cái bóng in dưới đáy là 'Hình chiếu bằng'. Em rọi từ bên TAY TRÁI sang &rarr; cái bóng in bên vách phải là 'Hình chiếu cạnh'. Giờ muốn trải phẳng lên bàn học, em chỉ việc hạ đáy hộp xuống dưới và mở cánh cửa kính bên phải ra phẳng lì!",
+      "mantra": "Trước là ĐỨNG • Trên là BẰNG (ở dưới) • Trái là CẠNH (ở phải) • Cứ thế mà soi!"
+    },
+    "real_life_story": "Khi em chụp ảnh một lon nước ngọt: Nhìn ngang lon nước trông như một 'hình chữ nhật', nhưng nhìn từ trên nắp xuống lại là một 'hình tròn'. Nhờ kết hợp cả 2 hình chiếu, em mới biết chắc chắn đó là một khối trụ tròn xoay!"
+  },
+  "bai_03": {
+    "title": "Bài 3: Bản vẽ chi tiết",
+    "pareto_20": [
+      "Bản vẽ chi tiết vẽ 1 CHI TIẾT ĐƠN LẺ để thợ chế tạo và kiểm tra.",
+      "4 nội dung chuẩn: Khung tên &rarr; Hình biểu diễn &rarr; Kích thước &rarr; Yêu cầu kĩ thuật.",
+      "Trình tự đọc 5 bước: Khung tên (biết tên, vật liệu) &rarr; Hình biểu diễn &rarr; Kích thước &rarr; Yêu cầu kĩ thuật (gia công, mạ) &rarr; Tổng hợp (hình dung 3D)."
+    ],
+    "feynman_kid": {
+      "analogy_title": "Ẩn dụ: Tấm Căn cước công dân (CCCD) của một mảnh ghép LEGO 🪪🧩",
+      "story": "Bản vẽ chi tiết y như một tấm 'chứng minh thư' của riêng một viên gạch LEGO: Khung tên là họ tên và quê quán (tên chi tiết, làm từ nhựa hay thép); Hình biểu diễn là ảnh chụp chân dung các góc; Kích thước là chiều cao, cân nặng; còn Yêu cầu kĩ thuật là dặn thợ phải mài nhẵn góc kẻo trẻ con chơi bị xước tay!",
+      "mantra": "Tên chi tiết đọc trước tiên • Kích thước đọc kỹ kẻo phiền thợ gia công • Yêu cầu mạ bóng sạch trơn!"
+    },
+    "real_life_story": "Chiếc ống lót nhỏ xíu trong quạt điện tưởng đơn giản nhưng nếu thợ không mạ kẽm và làm tù cạnh theo đúng 'Yêu cầu kĩ thuật' trên bản vẽ, trục quạt quay vài hôm sẽ bị rỉ sét và kêu kẽo kẹt!"
+  },
+  "bai_04": {
+    "title": "Bài 4: Bản vẽ lắp",
+    "pareto_20": [
+      "Bản vẽ lắp thể hiện SỰ LẮP GHÉP của một cụm máy hoàn chỉnh.",
+      "Điểm khác biệt cốt lõi với bản vẽ chi tiết: Bản vẽ lắp CÓ Bảng kê (danh sách linh kiện), KHÔNG CÓ Yêu cầu kĩ thuật riêng.",
+      "Trình tự đọc 6 bước: Khung tên &rarr; Bảng kê &rarr; Hình biểu diễn &rarr; Kích thước (chung & lắp) &rarr; Phân tích chi tiết &rarr; Tổng hợp (trình tự tháo lắp)."
+    ],
+    "feynman_kid": {
+      "analogy_title": "Ẩn dụ: Tờ giấy hướng dẫn ráp mô hình Gundam / Xe đua LEGO 🏎️📖",
+      "story": "Khi em mua một hộp mô hình xe đua, trong hộp có một tờ giấy vẽ cả chiếc xe đã lắp hoàn chỉnh. Phía trên có cái bảng ghi: 4 bánh xe cao su, 1 khung xe, 2 trục sắt &rarr; đó chính là 'Bảng kê'! Bản vẽ lắp không dạy em cách đúc từng chiếc bánh xe (đó là việc của bản vẽ chi tiết), mà chỉ cho em biết chiếc bánh nào gắn vào trục nào!",
+      "mantra": "Bản vẽ chi tiết: Làm ra từng món • Bản vẽ lắp: Ghép chúng lại thành cỗ máy diệu kỳ!"
+    },
+    "real_life_story": "Một kỹ sư lắp ráp robot cứu hỏa chỉ cần nhìn Bản vẽ lắp là biết ngay con ốc số 3 phải siết vào tấm thép số 1 trước khi gắn cảm biến số 2, không bao giờ bị thừa ốc vít khi ráp xong!"
+  },
+  "bai_05": {
+    "title": "Bài 5: Bản vẽ nhà",
+    "pareto_20": [
+      "Mặt bằng là hình biểu diễn QUAN TRỌNG NHẤT: là hình cắt bằng cắt ngang tầm cửa sổ (cách sàn 1m - 1.5m), thể hiện cách bố trí phòng ốc, cửa đi, cửa sổ.",
+      "Mặt đứng: Thể hiện vẻ đẹp ngoại thất bên ngoài ngôi nhà (nhìn chính diện).",
+      "Mặt cắt: Thể hiện chiều cao tầng, kết cấu móng, mái và dầm sàn.",
+      "Kí hiệu cửa đi 1 cánh: Vẽ một cung tròn $90^\\circ$ để chỉ hướng mở và độ quét của cánh cửa."
+    ],
+    "feynman_kid": {
+      "analogy_title": "Ẩn dụ: Nhấc mái nhà búp bê lên và nhìn từ trên cao xuống 🏠✨",
+      "story": "Tưởng tượng em có một ngôi nhà búp bê xinh xắn. Em dùng một lưỡi cưa thần kỳ cắt ngang lưng chừng cửa sổ rồi nhấc hẳn cái mái nhà ra. Nhìn thẳng từ trên trời xuống, em sẽ thấy rõ phòng khách ở đâu, giường ngủ kê chỗ nào, cánh cửa mở ra hướng nào để không bị vướng tủ &rarr; Đó chính là 'Mặt bằng' nhà đấy!",
+      "mantra": "Mặt bằng: Nhấc mái nhìn vào • Mặt đứng: Ngắm cổng xem bao nét đẹp • Mặt cắt: Xem trần cao mấy mét!"
+    },
+    "real_life_story": "Khi gia đình bạn Lan xây nhà mới, bố bạn Lan xem 'Mặt bằng' để quyết định đặt bàn học của Lan cạnh cửa sổ hướng Đông đón ánh nắng sớm, và xem 'Mặt đứng' để chọn màu sơn vàng kem ấm áp cho ngôi nhà!"
+  },
+  "on_tap_chuong_01": {
+    "title": "Ôn tập tổng kết Chương I: Bản đồ chinh phục Điểm 10",
+    "pareto_20": [
+      "Tiêu chuẩn: A4 = $297 \\times 210$, lề trái 20 mm, nét đậm (thấy), nét đứt (khuất), số đo luôn là số thực mm.",
+      "Hình chiếu: Đứng (trước), Bằng (trên - đặt dưới), Cạnh (trái - đặt phải). Cùng chiều dài (đứng - bằng), cùng chiều cao (đứng - cạnh).",
+      "3 loại bản vẽ: Chi tiết (chế tạo 1 món, có yêu cầu KT) &harr; Lắp (ghép nhiều món, có bảng kê) &harr; Nhà (xây dựng, Mặt bằng là số 1)."
+    ],
+    "feynman_kid": {
+      "analogy_title": "Ẩn dụ: Bộ ba siêu anh hùng của thế giới đồ họa kỹ thuật 🦸‍♂️📐",
+      "story": "Để chế tạo ra chiếc tàu ngầm: Siêu anh hùng Bản Vẽ Chi Tiết đúc nên từng chiếc cánh quạt; Siêu anh hùng Bản Vẽ Lắp ghép cánh quạt vào động cơ; và Siêu anh hùng Bản Vẽ Nhà thiết kế bến cảng neo đậu an toàn! Cả ba đều nói chung một thứ ngôn ngữ: Tiêu chuẩn Việt Nam TCVN!",
+      "mantra": "Nắm vững 3 nguyên lý • Nhớ rõ 3 góc chiếu • Hiểu đúng 3 bản vẽ &rarr; Chắc chắn 10 điểm trong tay!"
+    },
+    "real_life_story": "Mọi vật dụng em cầm trên tay, từ chiếc điện thoại thông minh, cây bút bi đến chiếc bàn học, tất cả đều được sinh ra từ những nét vẽ kỹ thuật chuẩn xác của các kỹ sư!"
+  }
+}

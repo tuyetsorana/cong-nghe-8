@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.streamlit/secrets.toml
+temp_pages/
+congnghe8_progress.db
+page_*.jpg
+cover.jpg

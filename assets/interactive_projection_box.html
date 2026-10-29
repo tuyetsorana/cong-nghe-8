@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  body { background: #0f172a; color: #f8fafc; padding: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 480px; }
+  .widget-container { width: 100%; max-width: 760px; background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 18px; box-shadow: 0 10px 25px rgba(0,0,0,0.4); }
+  .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 1px solid #334155; padding-bottom: 10px; }
+  .title { font-size: 16px; font-weight: 700; color: #38bdf8; display: flex; align-items: center; gap: 8px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+  .btn { background: #334155; color: #e2e8f0; border: 1px solid #475569; padding: 6px 14px; border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+  .btn:hover { background: #475569; color: #fff; }
+  .btn.active { background: #0284c7; border-color: #38bdf8; color: #fff; box-shadow: 0 0 10px rgba(56, 189, 248, 0.4); }
+  .btn-unfold { background: #d97706; border-color: #f59e0b; color: #fff; }
+  .btn-unfold.active { background: #b45309; }
+  .stage { width: 100%; height: 350px; background: #090d16; border-radius: 8px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+  svg { width: 100%; height: 100%; }
+  .info-badge { position: absolute; bottom: 12px; left: 14px; background: rgba(15, 23, 42, 0.85); border: 1px solid #334155; border-radius: 6px; padding: 6px 12px; font-size: 12px; color: #94a3b8; pointer-events: none; }
+  .highlight { color: #38bdf8; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<div class="widget-container">
+  <div class="header">
+    <div class="title">📐 MÔ PHỎNG: HỘP 3 MẶT PHẲNG CHIẾU VUÔNG GÓC</div>
+    <span style="font-size:12px; color:#a855f7; font-weight:600;">Công nghệ 8 • Chuẩn TCVN</span>
+  </div>
+
+  <div class="controls">
+    <button class="btn active" id="btn-3d" onclick="setView('3d')">🌐 Không Gian 3D</button>
+    <button class="btn" id="btn-front" onclick="setView('front')">🔴 Chiếu Đứng (P1)</button>
+    <button class="btn" id="btn-top" onclick="setView('top')">🟡 Chiếu Bằng (P2)</button>
+    <button class="btn" id="btn-side" onclick="setView('side')">🔵 Chiếu Cạnh (P3)</button>
+    <button class="btn btn-unfold" id="btn-unfold" onclick="setView('unfold')">📖 Mở Hộp Trải Phẳng 2D</button>
+  </div>
+
+  <div class="stage">
+    <svg id="canvas" viewBox="0 0 600 350">
+      <!-- Defined in JS dynamic render -->
+    </svg>
+    <div class="info-badge" id="info-badge">Đang ở chế độ: <span class="highlight">Góc nhìn không gian 3D</span></div>
+  </div>
+</div>
+
+<script>
+const canvas = document.getElementById('canvas');
+const info = document.getElementById('info-badge');
+
+function render3D() {
+  canvas.innerHTML = `
+    <!-- 3D Isometric Projection Box -->
+    <defs>
+      <linearGradient id="p1Grad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1e3a5f" stop-opacity="0.8"/><stop offset="100%" stop-color="#0f2744" stop-opacity="0.9"/></linearGradient>
+      <linearGradient id="p2Grad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#422006" stop-opacity="0.8"/><stop offset="100%" stop-color="#2d1504" stop-opacity="0.9"/></linearGradient>
+      <linearGradient id="p3Grad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#14532d" stop-opacity="0.8"/><stop offset="100%" stop-color="#092e18" stop-opacity="0.9"/></linearGradient>
+    </defs>
+    <!-- Plane P1 (Đứng) -->
+    <polygon points="120,40 380,40 380,240 120,240" fill="url(#p1Grad)" stroke="#38bdf8" stroke-width="2"/>
+    <text x="135" y="65" fill="#38bdf8" font-size="14" font-weight="bold">Mặt phẳng P1 (Hình chiếu Đứng)</text>
+
+    <!-- Plane P2 (Bằng) -->
+    <polygon points="120,240 380,240 500,310 240,310" fill="url(#p2Grad)" stroke="#f59e0b" stroke-width="2"/>
+    <text x="260" y="295" fill="#f59e0b" font-size="14" font-weight="bold">Mặt phẳng P2 (Hình chiếu Bằng)</text>
+
+    <!-- Plane P3 (Cạnh) -->
+    <polygon points="380,40 500,110 500,310 380,240" fill="url(#p3Grad)" stroke="#10b981" stroke-width="2"/>
+    <text x="400" y="80" fill="#10b981" font-size="14" font-weight="bold">P3 (Chiếu Cạnh)</text>
+
+    <!-- Object 3D in center (Khối chữ L) -->
+    <polygon points="230,130 280,100 280,180 230,210" fill="#e2e8f0" stroke="#0f172a" stroke-width="2"/>
+    <polygon points="280,100 320,125 320,165 280,140" fill="#94a3b8" stroke="#0f172a" stroke-width="2"/>
+    <polygon points="230,130 270,105 320,125 280,150" fill="#cbd5e1" stroke="#0f172a" stroke-width="2"/>
+
+    <!-- Projection rays -->
+    <line x1="230" y1="130" x2="160" y2="130" stroke="#f43f5e" stroke-width="1.5" stroke-dasharray="4"/>
+    <line x1="280" y1="210" x2="280" y2="270" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4"/>
+    <line x1="320" y1="140" x2="430" y2="170" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4"/>
+
+    <text x="220" y="340" fill="#94a3b8" font-size="13">Bấm các nút bên trên để xem từng hình chiếu hoặc Mở hộp phẳng</text>
+  `;
+  info.innerHTML = `Đang xem: <span class="highlight">Góc nhìn 3D Isometric không gian</span>`;
+}
+
+function renderFront() {
+  canvas.innerHTML = `
+    <rect x="180" y="60" width="240" height="200" fill="#1e3a5f" stroke="#38bdf8" stroke-width="3" rx="4"/>
+    <polygon points="230,90 370,90 370,210 300,210 300,150 230,150" fill="#f43f5e" stroke="#fff" stroke-width="2"/>
+    <text x="300" y="40" text-anchor="middle" fill="#38bdf8" font-size="18" font-weight="bold">HÌNH CHIẾU ĐỨNG (Front View)</text>
+    <text x="300" y="240" text-anchor="middle" fill="#94a3b8" font-size="14">Hướng nhìn từ trước tới &rarr; Thu được Chiều Cao và Chiều Dài</text>
+  `;
+  info.innerHTML = `Đang xem: <span class="highlight">Hình chiếu đứng trên mặt phẳng P1</span>`;
+}
+
+function renderTop() {
+  canvas.innerHTML = `
+    <rect x="180" y="60" width="240" height="200" fill="#422006" stroke="#f59e0b" stroke-width="3" rx="4"/>
+    <rect x="230" y="90" width="140" height="120" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+    <line x1="300" y1="90" x2="300" y2="210" stroke="#fff" stroke-width="2" stroke-dasharray="4"/>
+    <text x="300" y="40" text-anchor="middle" fill="#f59e0b" font-size="18" font-weight="bold">HÌNH CHIẾU BẰNG (Top View)</text>
+    <text x="300" y="240" text-anchor="middle" fill="#94a3b8" font-size="14">Hướng nhìn từ trên xuống &rarr; Thu được Chiều Dài và Chiều Rộng</text>
+  `;
+  info.innerHTML = `Đang xem: <span class="highlight">Hình chiếu bằng trên mặt phẳng P2</span>`;
+}
+
+function renderSide() {
+  canvas.innerHTML = `
+    <rect x="180" y="60" width="240" height="200" fill="#14532d" stroke="#10b981" stroke-width="3" rx="4"/>
+    <rect x="250" y="90" width="100" height="120" fill="#10b981" stroke="#fff" stroke-width="2"/>
+    <line x1="250" y1="150" x2="350" y2="150" stroke="#fff" stroke-width="2" stroke-dasharray="4"/>
+    <text x="300" y="40" text-anchor="middle" fill="#10b981" font-size="18" font-weight="bold">HÌNH CHIẾU CẠNH (Left Side View)</text>
+    <text x="300" y="240" text-anchor="middle" fill="#94a3b8" font-size="14">Hướng nhìn từ trái sang &rarr; Thu được Chiều Cao và Chiều Rộng</text>
+  `;
+  info.innerHTML = `Đang xem: <span class="highlight">Hình chiếu cạnh trên mặt phẳng P3</span>`;
+}
+
+function renderUnfold() {
+  canvas.innerHTML = `
+    <!-- Top-Left: Front View -->
+    <rect x="120" y="30" width="160" height="130" fill="#1e3a5f" stroke="#38bdf8" stroke-width="2" rx="4"/>
+    <polygon points="150,50 250,50 250,130 200,130 200,90 150,90" fill="#f43f5e" stroke="#fff" stroke-width="1.5"/>
+    <text x="200" y="22" text-anchor="middle" fill="#38bdf8" font-size="13" font-weight="bold">HÌNH CHIẾU ĐỨNG</text>
+
+    <!-- Top-Right: Side View -->
+    <rect x="340" y="30" width="120" height="130" fill="#14532d" stroke="#10b981" stroke-width="2" rx="4"/>
+    <rect x="360" y="50" width="80" height="80" fill="#10b981" stroke="#fff" stroke-width="1.5"/>
+    <line x1="360" y1="90" x2="440" y2="90" stroke="#fff" stroke-width="1.5" stroke-dasharray="3"/>
+    <text x="400" y="22" text-anchor="middle" fill="#10b981" font-size="13" font-weight="bold">HÌNH CHIẾU CẠNH</text>
+
+    <!-- Bottom-Left: Top View -->
+    <rect x="120" y="190" width="160" height="120" fill="#422006" stroke="#f59e0b" stroke-width="2" rx="4"/>
+    <rect x="150" y="210" width="100" height="80" fill="#f59e0b" stroke="#fff" stroke-width="1.5"/>
+    <line x1="200" y1="210" x2="200" y2="290" stroke="#fff" stroke-width="1.5" stroke-dasharray="3"/>
+    <text x="200" y="328" text-anchor="middle" fill="#f59e0b" font-size="13" font-weight="bold">HÌNH CHIẾU BẰNG</text>
+
+    <!-- Aligning Alignment Lines -->
+    <line x1="200" y1="160" x2="200" y2="190" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="3"/>
+    <line x1="280" y1="95" x2="340" y2="95" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="3"/>
+
+    <!-- Annotations -->
+    <text x="480" y="85" fill="#38bdf8" font-size="12">⬅ Gióng ngang</text>
+    <text x="480" y="105" fill="#94a3b8" font-size="11">(Cùng chiều cao)</text>
+
+    <text x="220" y="180" fill="#f59e0b" font-size="12">⬇ Gióng dọc (Cùng chiều dài)</text>
+  `;
+  info.innerHTML = `Đang xem: <span class="highlight">Bố trí 3 hình chiếu trải phẳng trên giấy vẽ chuẩn TCVN</span>`;
+}
+
+function setView(view) {
+  document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
+  if (view === '3d') { document.getElementById('btn-3d').classList.add('active'); render3D(); }
+  else if (view === 'front') { document.getElementById('btn-front').classList.add('active'); renderFront(); }
+  else if (view === 'top') { document.getElementById('btn-top').classList.add('active'); renderTop(); }
+  else if (view === 'side') { document.getElementById('btn-side').classList.add('active'); renderSide(); }
+  else if (view === 'unfold') { document.getElementById('btn-unfold').classList.add('active'); renderUnfold(); }
+}
+
+render3D();
+</script>
+</body>
+</html>
