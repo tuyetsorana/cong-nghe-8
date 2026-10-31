@@ -48,11 +48,29 @@ shield_sticker = get_sticker_base64("shield_3d.png")
 fire_sticker = get_sticker_base64("fire_3d.png")
 medal_sticker = get_sticker_base64("medal_3d.png")
 
-# CSS Chuyên Sâu: Bảo vệ 100% Icon Streamlit (chống lỗi hiện chữ arrow_down, smart_toy)
+# CSS Chuyên Sâu & Cơ chế chống lỗi React removeChild do Trình duyệt / Google Dịch
 st.markdown("""
+<meta name="google" content="notranslate">
+<meta name="robots" content="notranslate">
+<div class="notranslate" translate="no" style="display:none;"></div>
+<script>
+    // Tự động gán thuộc tính cấm Google Dịch can thiệp phá hỏng DOM React
+    document.documentElement.lang = "vi";
+    document.documentElement.setAttribute("translate", "no");
+    document.documentElement.classList.add("notranslate");
+    if (document.body) {
+        document.body.setAttribute("translate", "no");
+        document.body.classList.add("notranslate");
+    }
+</script>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Nunito:wght@400;500;600;700;800&display=swap');
     
+    /* Chống Google Translate / Edge Translator can thiệp làm vỡ DOM */
+    .stApp, [data-testid="stAppViewContainer"], [data-testid="stSidebar"], .notranslate {
+        translate: no !important;
+    }
+
     /* Áp dụng font chỉ cho văn bản thuần, TUYỆT ĐỐI KHÔNG can thiệp vào thẻ icon và SVG của Streamlit */
     html, body, p, li, [data-testid="stMarkdownContainer"] p, [data-testid="stMarkdownContainer"] li {
         font-family: 'Nunito', sans-serif !important;
@@ -346,13 +364,11 @@ with tab1:
     ])
     
     with sub_tab1:
-        st.markdown('<div class="quick-card">', unsafe_allow_html=True)
         if sections["quick_notes"]:
             rendered_qn = render_base64_images(sections["quick_notes"], img_dirs)
-            st.markdown(rendered_qn, unsafe_allow_html=True)
+            st.markdown(f'<div class="quick-card">\n\n{rendered_qn}\n\n</div>', unsafe_allow_html=True)
         else:
             st.info("Nội dung ghi nhớ nhanh đang được nạp...")
-        st.markdown('</div>', unsafe_allow_html=True)
         
         # Nhúng Video bài giảng YouTube
         videos_path = os.path.join(BASE_DIR, "data", "lesson_videos.json")
@@ -380,13 +396,11 @@ with tab1:
                     break
             st.markdown("---")
             
-        st.markdown('<div class="quick-card">', unsafe_allow_html=True)
         if sections["step_examples"]:
             rendered_se = render_base64_images(sections["step_examples"], img_dirs)
-            st.markdown(rendered_se, unsafe_allow_html=True)
+            st.markdown(f'<div class="quick-card">\n\n{rendered_se}\n\n</div>', unsafe_allow_html=True)
         else:
             st.info("Các bước đọc bản vẽ và thao tác kỹ thuật đang được hiển thị chi tiết tại Tab 2.")
-        st.markdown('</div>', unsafe_allow_html=True)
         
     with sub_tab3:
         with st.expander("📖 Xem toàn bộ nội dung Sách Giáo Khoa gốc & Hoạt động Khám phá", expanded=True):
@@ -470,10 +484,10 @@ with tab3:
                         "Chọn đáp án đúng nhất:",
                         options=[opt[0] for opt in q["options"]],
                         format_func=lambda o, q_opts=q["options"]: next(opt for opt in q_opts if opt.startswith(o)),
-                        key=f"q_{q['id']}",
+                        key=f"q_{selected_lesson_key}_{q['id']}",
                         horizontal=True
                     )
-                    st.markdown("<br>", unsafe_allow_html=True)
+                    st.write("")
                     
                 submitted = st.form_submit_button("Nộp Bài & Tự Chấm Điểm 🎯✨")
                 if submitted:
